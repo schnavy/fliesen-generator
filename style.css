@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+}
+
+.fliesen {
+  top: 100px;
+  margin: auto;
+  position: absolute;
+}
+.fliesen .row {
+  margin-top: -22px;
+}
+.fliesen .row:nth-child(odd) {
+  margin-left: 30px;
+}
+.row div {
+  display: inline-block;
+  width: 40px;
+  height: 34.641px;
+  margin-left: 20px;
+}
+svg {
+  stroke: lightgray;
+  stroke-width: 2px;
+}
+.dark svg {
+  fill: black;
+}
+
+.light svg {
+  fill: white;
+}
